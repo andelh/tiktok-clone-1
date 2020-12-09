@@ -6,15 +6,14 @@ html {
   height: 100vh;
   background-color: black;
   display: grid;
-  place-items: center;
+  place-items: flex-start;
 }
 
 .app__videos {
   position: relative;
   height: 800px;
-  border-radius: 20px;
   overflow: scroll;
-  width: 80%;
+  width: 100%;
   max-width: 500px;
   scroll-snap-type: y mandatory;
 }
